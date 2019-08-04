@@ -7,14 +7,24 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.lifecycle.Observer;
+import androidx.lifecycle.ViewModelProviders;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.eton.mvvm_practice.adapters.RecyclerAdapter;
+import com.eton.mvvm_practice.models.NicePlace;
+import com.eton.mvvm_practice.viewmodels.MainActivityViewModel;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
+
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
     private RecyclerView recyclerView;
+    private RecyclerAdapter adapter;
+    private MainActivityViewModel viewModel;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +43,15 @@ public class MainActivity extends AppCompatActivity {
         });
 
         recyclerView = findViewById(R.id.rv_container);
+        viewModel = ViewModelProviders.of(this).get(MainActivityViewModel.class);
+        viewModel.getNicePlace().observe(this, new Observer<List<NicePlace>>() {
+            @Override
+            public void onChanged(List<NicePlace> nicePlace) {
+                adapter.notifyDataSetChanged();
+            }
+        });
+
+        initRecyclerView();
     }
 
     @Override
@@ -57,7 +76,10 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    private void initRecyclerview() {
-
+    private void initRecyclerView() {
+        adapter = new RecyclerAdapter(this, viewModel.getNicePlace().getValue());
+        RecyclerView.LayoutManager linearLayoutManager = new LinearLayoutManager(this);
+        recyclerView.setLayoutManager(linearLayoutManager);
+        recyclerView.setAdapter(adapter);
     }
 }

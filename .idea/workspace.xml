@@ -48,9 +48,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b968433a-03f1-4b36-9476-2fc37dad9e93" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/eton/mvvm_practice/adapters/RecyclerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_listitem.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/eton/mvvm_practice/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/eton/mvvm_practice/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/eton/mvvm_practice/viewmodels/MainActivityViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/eton/mvvm_practice/viewmodels/MainActivityViewModel.java" afterDir="false" />
     </list>
@@ -77,8 +74,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/eton/mvvm_practice/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="466">
+              <caret line="77" column="28" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="28" />
+              <folding>
+                <element signature="e#1692#1846#0" expanded="true" />
+                <element signature="e#1845#1846#0" expanded="true" />
+                <element signature="method#onCreateOptionsMenu#0;class#MainActivity#0" />
+                <element signature="method#onOptionsItemSelected#0;class#MainActivity#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,32 +89,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/eton/mvvm_practice/adapters/RecyclerAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="65" column="51" lean-forward="true" selection-start-line="65" selection-start-column="51" selection-end-line="65" selection-end-column="51" />
+            <state relative-caret-position="193">
+              <caret line="26" column="59" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#554#555#0" expanded="true" />
-                <element signature="e#578#579#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/layout_listitem.xml">
-          <provider editor-type-id="android-designer2" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/eton/mvvm_practice/viewmodels/MainActivityViewModel.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
-              <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="11" />
+              <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#278#279#0" expanded="true" />
@@ -188,10 +179,10 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/eton/mvvm_practice/models/NicePlace.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/eton/mvvm_practice/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/eton/mvvm_practice/viewmodels/MainActivityViewModel.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/eton/mvvm_practice/adapters/RecyclerAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/layout_listitem.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/eton/mvvm_practice/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -225,6 +216,13 @@
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="mvvm_practice" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MVVM_Practice" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="mvvm_practice" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="adapters" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MVVM_Practice" type="1abcf292:AndroidViewProjectNode" />
@@ -371,7 +369,7 @@
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="1" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.23687424" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.23687424" />
       <window_info id="Structure" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
       <window_info id="Image Layers" order="5" />
@@ -395,7 +393,7 @@
       <window_info anchor="right" id="Fabric" order="4" />
       <window_info anchor="right" id="PlantUML" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info active="true" anchor="right" id="Preview" order="7" visible="true" weight="0.32967034" />
+      <window_info anchor="right" id="Preview" order="7" weight="0.32967034" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -456,48 +454,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata-core/2.0.0/c158207594782b42f3a2e08a5a029eb3319e4404/lifecycle-livedata-core-2.0.0-sources.jar!/androidx/lifecycle/LiveData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="169" column="34" selection-start-line="169" selection-start-column="34" selection-end-line="169" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/eton/mvvm_practice/viewmodels/MainActivityViewModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/eton/mvvm_practice/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.hdodenhof/circleimageview/3.0.0/78063c6cf034f24292cf05a324e69091a58569cf/circleimageview-3.0.0-sources.jar!/de/hdodenhof/circleimageview/CircleImageView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/eton/mvvm_practice/adapters/RecyclerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="65" column="51" lean-forward="true" selection-start-line="65" selection-start-column="51" selection-end-line="65" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#554#555#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -506,6 +466,48 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
           <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata-core/2.0.0/c158207594782b42f3a2e08a5a029eb3319e4404/lifecycle-livedata-core-2.0.0-sources.jar!/androidx/lifecycle/LiveData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="301" column="30" lean-forward="true" selection-start-line="301" selection-start-column="30" selection-end-line="301" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/eton/mvvm_practice/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="77" column="28" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="28" />
+          <folding>
+            <element signature="e#1692#1846#0" expanded="true" />
+            <element signature="e#1845#1846#0" expanded="true" />
+            <element signature="method#onCreateOptionsMenu#0;class#MainActivity#0" />
+            <element signature="method#onOptionsItemSelected#0;class#MainActivity#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/eton/mvvm_practice/adapters/RecyclerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="26" column="59" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/eton/mvvm_practice/viewmodels/MainActivityViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
