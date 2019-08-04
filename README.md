@@ -1,1 +1,1 @@
-MVVM_Practice
+MVVM 練習
